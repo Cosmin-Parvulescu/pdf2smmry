@@ -1,0 +1,24 @@
+{
+  "name": "pdf2summary",
+  "version": "0.1.0",
+  "description": "Reads your PDFs, summarizes them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^6.3.1",
+    "@samwen/fs-utils": "^1.0.5",
+    "axios": "^0.24.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.6",
+    "pdf2json": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
